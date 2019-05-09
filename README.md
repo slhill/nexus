@@ -3,16 +3,16 @@
 
 # Blue Brain Nexus - A knowledge graph for data-driven science
 
-The Blue Brain Nexus is a provenance based, semantic enabled data management platform enabling the definition of an
-arbitrary domain of application for which there is a need to create and manage entities as well as their relations
-(e.g. provenance). For example, the domain of application managed by the Nexus platform deployed at Blue Brain is to
+Nexus is an Open Source, distributed data and knowledge management platform designed to enable ingestion, integration and search of virtually any type of data and organize it in a knowledge graph. Data can be ingested from existing data sources such as CSV files and SQL databases, and  reshaped into well defined data schemas. Entities (real world data) are described using well defined and validatable schemas (using JSON-LD as a standard format and SHACL for validation). Nexus can use existing data schemas from http://schema.org or new ones created for your own applications. Nexus provides the ability to create and manage entities as well as describe their context and relationship to other entities (e.g. provenance). Nexus supports the full F.A.I.R. data lifecycle.
+	
+For example, the domain of application managed by the Nexus platform deployed at Blue Brain is to
 digitally reconstruct and simulate the brain.
 
-At the heart of the Blue Brain Nexus platform lies the Knowledge Graph, at Blue Brain, it will allow scientists to:
+At the heart of the Blue Brain Nexus platform lies the Knowledge Graph, at Blue Brain, it allows scientists to:
 
 1. Register and manage neuroscience relevant entity types through schemas that can reuse or extend community defined
 schemas (e.g. schema.org, bioschema.org, W3C-PROV) and ontologies (e.g. brain parcellation schemes, cell types,
-taxonomy).
+taxonomy). For neuroscience data, http://Neuroshapes.org provides open, community-developed schemas. 
 
 2. Submit data to the platform and describe their provenance using the W3C PROV model. Provenance is about how data or
 things are generated (e.g. protocols, methods used...), when (e.g. timeline) and by whom (e.g. people, software...).
