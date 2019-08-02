@@ -5,15 +5,15 @@ A Python wrapper for the Blue Brain Nexus REST API.
 
 ### How to install
 
-pip install nexus-sdk
+'pip install nexus-sdk'
 
 ### Usage
-import nexussdk as nexus
+'import nexussdk as nexus
 
 nexus.config.set_environment(DEPLOYMENT)
 nexus.config.set_token(TOKEN)
 
-nexus.permissions.fetch()
+nexus.permissions.fetch()'
 
 ### List of supported operations
 
